@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Mynerve&family=Pacifico&family=Prompt:ital,wght@0,100;0,200;1,100&family=Shantell+Sans:ital,wght@1,300&family=Titillium+Web:ital,wght@1,200&family=Yellowtail&display=swap');*{
+    font-family: "Shantell-Sans";
+    margin:0;
+    padding:0;
+
+}
+html{
+    scroll-behavior :smooth;
+}
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("https://imgs.search.brave.com/sjSNPRcbbXcETHpO5XMzVZeOrlG2mX5c-qUG9HTOFK8/rs:fit:1200:900:1/g:ce/aHR0cDovL3N0Lmdk/ZWZvbi5jb20vd2Fs/bHBhcGVyc19vcmln/aW5hbC80MDE0NzNf/cmVrYV9yYXpiaXR5/ai1iYXJrYXNfYmVy/ZWdfMTkyMHgxMDgw/X3d3dy5HZGUtRm9u/LmNvbS5qcGc");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width:1000px;
+    margin:auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 37px;
+
+}
+.inicio .contenido-seccion .info h1{
+    letter-spacing: 3px;
+    font-family:"Pacifico";
+    padding-bottom: 20px;
+}
+.inicio .contenido-seccion .info h2{
+    font-family: "Mynerve";
+    padding-bottom: 50px;
+}
+.inicio .contenido-seccion .info .redes{
+    margin: 35px 0;
+    padding-bottom: 100px;
+}
+.inicio .contenido-seccion .info .redes a{
+    display:inline-block;
+    text-decoration: none;
+    background-color: #d4bb69;
+    color: rgba(86, 11, 43, 0.973);
+    border: 1px solid rgba(86, 11, 43, 0.973);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin:0 5px;
+    transition: .3s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color:rgb(13, 106, 42);
+    border-color: rgb(13, 106, 42);
+    background-color: #d4bb69;
+    box-shadow: 0 0 20px rgba(86, 11, 43, 0.973);
+}
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    margin: 50px, 50px, 50px, 50px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: rgba(86, 11, 43, 0.973);
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+.inicio .contenido-seccion .foto img:hover{
+    border-color: rgb(13, 106, 42);
+    box-shadow: 0 0 20px rgba(86, 11, 43, 0.973);
+
+}
+/**
+**/
+
+.cuerpo .resumen{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    text-align: left;
+    background-color:rgba(6, 69, 26, 0.427);
+}
+.cuerpo .resumen2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    text-align: left;
+    background-color:rgba(6, 69, 26, 0.427);
+}
+
+.cuerpo .contenido{
+    padding-top:100px;
+    padding-bottom: 50px;
+    background-color: #d4bb69;
+}
+#tt{
+    transition: all 300ms;
+    display: none;
+}
+#yy{
+    transition: all 300ms;
+    display: none;
+}
+#show1{
+    background-color:rgba(86, 11, 43, 0.973);
+    border: none;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    color: #d4bb69;
+    box-shadow: 0px 0px 10px 0px rgba(86, 11, 43, 0.973);
+    padding: 15px;
+    transition:2000ms;
+}
+#show2{
+    background-color:rgba(86, 11, 43, 0.973);
+    border: none;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    color: #d4bb69;
+    box-shadow: 0px 0px 10px 0px rgba(86, 11, 43, 0.973);
+    padding: 15px;
+    transition:2000ms;
+}
+.cuerpo .contenido .resumen .titulos{
+    padding-left: 10px;
+    font-family: "Pacifico";
+}
+.cuerpo .contenido .resumen span{
+    font-family: "Prompt"
+}
+.cuerpo .contenido .resumen2 .titulos{
+    padding-left: 10px;
+    font-family: "Pacifico";
+}
+.cuerpo .contenido .resumen2 span{
+    font-family: "Prompt"
+}
+/**
+**/
+.contacto{
+    background-color: #a99553;
+    padding: 140px 0 100px 0;
+    color: #000000;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: rgba(86, 11, 43, 0.973);
+}
